@@ -19,7 +19,7 @@ Participants will:
 4. **Experiment with various quantum hardware backends** (e.g., Rigetti, IonQ, or IQM) and simulators such as SV1 to compare performance and scalability. We highly encourage you to run your solution with a local simulator before running it on real devices or cloud simulators.
 
 ### Using qBraid for development
-Fork this repository into your account, and copy its git clone url e.g. https://github.com/<user>/q-site-braket.git. 
+Fork this repository into your account, and copy its git clone url e.g. `https://github.com/<user>/q-site-braket.git`. 
 
 At the bottom of this README in the forked repo, click the Launch on qBraid button to clone this repository and launch qBraid Lab.
 
@@ -62,7 +62,8 @@ Use the environment manager (ENVS tab in the right sidebar) to install environme
 
 2. **Final Report**:
    - Include everything in one jupyter notebook runnable on qBraid with the [Amazon Braket (1.86) ](https://docs.qbraid.com/lab/user-guide/environments#install-environment) environment.
-    <img src="./amazon_braket_v186.png" width="200px" style="margin: auto;"> 
+    <img src="./amazon_braket_v186.png" width="200px" style="margin: auto;">
+
    - Detailed report in the jupyter notebook explaining your implementation, including the formulation of the Weighted Max-k-Cut problem and QAOA.
    - Discuss the optimization techniques used, the results obtained, and the comparison of hardware backends.
    - Include insights into the performance of your QAOA as \( k \) increases.
