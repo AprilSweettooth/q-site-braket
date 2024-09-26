@@ -1,7 +1,8 @@
 # Q-SITE Hackathon qBraid-AWS Challenge
+# team hyperquantum
 
 **Optimizing Quantum Approximate Optimization Algorithm (QAOA) for Weighted Max-k-Cut Using Amazon Braket**
-*team hyperquantum*
+
 
 ## **Challenge Overview:**
 
