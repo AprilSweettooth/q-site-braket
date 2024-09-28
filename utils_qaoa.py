@@ -183,7 +183,10 @@ def objective_function(params, qaoa_circuit, ising, device, n_shots, tracker, ve
         else:
             ops += str(1)
     tracker['ratio_shot'].append(result.measurement_counts[''.join(list(str(i) for i in ops))]/sum(list(result.measurement_counts.values())))
-    tracker['prob'].append(sharp_probs)
+    if error_mitigation:
+        tracker['prob'].append(sharp_probs)
+    else:
+        tracker['prob'].append(result.measurement_probabilities)
     return energy_expect
 
 
